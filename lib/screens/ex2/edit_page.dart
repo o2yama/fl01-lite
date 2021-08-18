@@ -40,7 +40,7 @@ class EditPage extends HookWidget {
             child: Text('Cancel'),
           ),
           middle: Text(
-            'Edit Memo',
+            this.memo == null ? 'New Memo' : 'Edit Memo',
             style: Theme.of(context).textTheme.headline1,
           ),
           trailing: TextButton(

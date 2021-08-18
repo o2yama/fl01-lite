@@ -1,9 +1,9 @@
-import 'package:fl01_lite/ex1/clock.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
+import 'clock.dart';
 
 class Ex1 extends HookWidget {
   const Ex1({Key? key}) : super(key: key);

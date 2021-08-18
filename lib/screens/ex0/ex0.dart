@@ -20,10 +20,7 @@ class Ex0 extends HookWidget {
               backgroundColor: Colors.red,
               child: Text(
                 luck.value,
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 60,
-                ),
+                style: TextStyle(color: Colors.white, fontSize: 60),
               ),
             ),
             const SizedBox(height: 16),
@@ -50,10 +47,7 @@ class Ex0 extends HookWidget {
               },
               child: Text(
                 'あなたの運勢は？',
-                style: TextStyle(
-                  color: Colors.blue,
-                  fontSize: 16,
-                ),
+                style: TextStyle(color: Colors.blue, fontSize: 16),
               ),
             ),
           ],

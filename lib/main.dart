@@ -1,4 +1,6 @@
-import 'package:fl01_lite/ex2/ex2_home_page.dart';
+import 'package:fl01_lite/screens/ex0/ex0.dart';
+import 'package:fl01_lite/screens/ex1/ex1.dart';
+import 'package:fl01_lite/screens/ex2/ex2_home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
